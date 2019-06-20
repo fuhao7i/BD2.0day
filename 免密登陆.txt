@@ -1,0 +1,17 @@
+Ssh-copy-id root@ip
+
+
+
+
+
+Ssh root@ip
+
+
+
+Ssh-keygen -t rsa
+
+
+
+
+
+ansible

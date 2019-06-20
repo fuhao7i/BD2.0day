@@ -1,0 +1,7 @@
+Docker run -it -v /home/workspace:/workspace python:3 /bin/bash
+
+Docker run -d -v /home/workspace:/workspace -name {{.name}} python:3 tail -f /dev/null
+
+Docker ps 去找容器id
+
+Docker exec -it {{-name}}or{{.container.id}} /bin/bash
